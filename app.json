@@ -1,43 +1,46 @@
 {
-  "expo": {
-    "name": "Status AI",
-    "slug": "statusai",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#FFFFFF"
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "io.github.50mmer.statusai",
-      "buildNumber": "1"
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      },
-      "package": "io.github.50mmer.statusai",
-      "versionCode": 1
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
-    "plugins": [
-      "expo-screen-orientation",
-      "expo-tracking-transparency"
-    ],
-    "extra": {
-      "eas": {
-        "projectId": "98122665-3011-4fe1-99e1-08a951fd1e0f"
-      }
-    }
+   "expo": {
+   "name": "Status AI",
+   "slug": "statusai",
+   "version": "1.0.0",
+   "orientation": "portrait",
+   "icon": "./assets/icon.png",
+   "userInterfaceStyle": "light",
+   "splash": {
+   "image": "./assets/splash.png",
+   "resizeMode": "contain",
+   "backgroundColor": "#FFFFFF"
+   },
+   "assetBundlePatterns": [
+   "**/*"
+   ],
+   "ios": {
+   "supportsTablet": true,
+   "bundleIdentifier": "io.github.50mmer.statusai",
+   "buildNumber": "1",
+   "infoPlist": {
+   "NSUserTrackingUsageDescription": "This identifier will be used to deliver personalized ads to you.",
+   "ITSAppUsesNonExemptEncryption": false
+   }
+   },
+   "android": {
+   "adaptiveIcon": {
+   "foregroundImage": "./assets/icon.png",
+   "backgroundColor": "#FFFFFF"
+   },
+   "package": "io.github.50mmer.statusai",
+   "versionCode": 1
+   },
+   "web": {
+   "favicon": "./assets/icon.png"
+   },
+   "plugins": [
+   "expo-screen-orientation"
+   ],
+   "extra": {
+   "eas": {
+   "projectId": "98122665-3011-4fe1-99e1-08a951fd1e0f"
+   }
+   }
+   }
   }
-}
